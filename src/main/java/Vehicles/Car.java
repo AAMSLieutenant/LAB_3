@@ -1,11 +1,19 @@
 package Vehicles;
 
 import Abstract.AbstractVehicle;
+import Builder.Types;
 
 import java.util.Objects;
 
 public class Car extends AbstractVehicle {
 
+
+//     private int cost;
+//    private int speed;
+//    private int issueYear;
+//    private int x;
+//    private int y;
+//    private int[] coordinates;
 
     public Car(){
 
@@ -27,6 +35,8 @@ public class Car extends AbstractVehicle {
     public int hashCode() {
         return Objects.hash(this.getCost(), this.getSpeed(), this.getIssueYear(), this.getX(), this.getY());
     }
+
+
 
 
 }

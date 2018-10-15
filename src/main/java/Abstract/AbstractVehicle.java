@@ -1,6 +1,8 @@
 package Abstract;
 
 import java.util.Objects;
+import Builder.Types;
+import org.graalvm.compiler.core.common.type.ArithmeticOpTable;
 
 public abstract class AbstractVehicle {
 
@@ -17,40 +19,49 @@ public abstract class AbstractVehicle {
 
 
 
-
-
-
     public int getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public AbstractVehicle setX(int x) {
         this.x = x;
+        return this;
     }
 
     public int getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public AbstractVehicle setY(int y) {
         this.y = y;
+        return this;
     }
 
     public int getCost(){ return this.cost;}
 
-    public void setCost(int cost){ this.cost=cost;}
+    public AbstractVehicle setCost(int cost){
+        this.cost=cost;
+        return this;
+    }
 
     public int getSpeed(){ return this.speed;}
 
-    public void setSpeed(int speed){ this.speed=speed;}
+    public AbstractVehicle setSpeed(int speed){
+        this.speed=speed;
+        return this;
+    }
 
     public int getIssueYear(){return this.issueYear;}
 
-    public void setIssueYear(int issueYear){ this.issueYear=issueYear;}
+    public AbstractVehicle setIssueYear(int issueYear){
+        this.issueYear=issueYear;
+        return this;
+    }
 
-    public void setCoordinates(int x, int y){
+    public AbstractVehicle setCoordinates(int x, int y){
         this.coordinates[0]=x;
         this.coordinates[1]=y;
+        return this;
     }
 
     public int[] getCoordinates(int x, int y){
@@ -73,4 +84,7 @@ public abstract class AbstractVehicle {
     public int hashCode() {
         return Objects.hash(cost, speed, issueYear, x, y);
     }
+
+
+
 }
