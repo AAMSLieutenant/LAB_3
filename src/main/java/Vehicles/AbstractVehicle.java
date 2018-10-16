@@ -1,8 +1,8 @@
-package Abstract;
+package Vehicles;
 
+import java.util.Arrays;
 import java.util.Objects;
-import Builder.Types;
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable;
+
 
 public abstract class AbstractVehicle {
 
@@ -86,5 +86,15 @@ public abstract class AbstractVehicle {
     }
 
 
-
+    @Override
+    public String toString() {
+        return "AbstractVehicle{" +
+                "cost=" + cost +
+                ", speed=" + speed +
+                ", issueYear=" + issueYear +
+                ", x=" + x +
+                ", y=" + y +
+                ", coordinates=" + Arrays.toString(coordinates) +
+                '}';
+    }
 }

@@ -1,23 +1,19 @@
 package Vehicles;
 
-import Abstract.AbstractVehicle;
-import Builder.Types;
+import Interfaces.Moveable;
 
 import java.util.Objects;
 
-public class Car extends AbstractVehicle {
+public class Car extends AbstractVehicle implements Moveable {
 
 
-//     private int cost;
-//    private int speed;
-//    private int issueYear;
-//    private int x;
-//    private int y;
-//    private int[] coordinates;
+
 
     public Car(){
 
     }
+
+
 
     @Override
     public boolean equals(Object o) {
@@ -37,6 +33,8 @@ public class Car extends AbstractVehicle {
     }
 
 
-
-
+    @Override
+    public String toString() {
+        return "Car{}"+super.toString();
+    }
 }
