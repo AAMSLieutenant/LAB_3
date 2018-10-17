@@ -207,7 +207,6 @@ public class Lab3 {
                     Lab3.dataInput();
                     System.out.println(VehicleBuilder.getVehicle(VehicleBuilder.Type));
                 }
-
                 break;
             }
             else{

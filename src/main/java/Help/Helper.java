@@ -5,9 +5,10 @@ import Vehicles.Car;
 import Vehicles.Plane;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
-public class Helper {
+public class Helper implements Comparator<AbstractVehicle> {
 
 
 
@@ -67,6 +68,16 @@ public class Helper {
         }
         return arr;
     }
+    public void cmp(AbstractVehicle av1, AbstractVehicle av2){
+        int compare = compare(av1, av2);
+    }
+
+    @Override
+    public int compare(AbstractVehicle av1, AbstractVehicle av2) {
 
 
+        
+        
+        return 0;
+    }
 }
