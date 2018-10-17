@@ -37,7 +37,7 @@ public class Helper {
                     res.add(av);
                 }
 
-                System.out.println(res.size());
+                //System.out.println(res.size());
 
 
             }
@@ -50,7 +50,7 @@ public class Helper {
 
 
 
-    public static ArrayList<AbstractVehicle> movableSort(ArrayList<AbstractVehicle> fArr){
+    public static ArrayList<AbstractVehicle> interfaceSort(ArrayList<AbstractVehicle> fArr){
         ArrayList<AbstractVehicle> arr=new ArrayList<>();
         int maxSpeed=0;
         for(AbstractVehicle fl: fArr){

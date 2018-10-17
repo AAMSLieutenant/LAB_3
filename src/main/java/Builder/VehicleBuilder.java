@@ -12,47 +12,24 @@ import java.util.Scanner;
 public class VehicleBuilder {
 
 
-    private static int cost;
-    private static int speed;
-    private static int issueYear;
-    private static int x;
-    private static int y;
-    private static int[] coordinates;
+    public static int cost;
+    public static int speed;
+    public static int issueYear;
+    public static int x;
+    public static int y;
+    public static int[] coordinates;
 
-    private static int height;
-    private static int passCount;
+    public static int height;
+    public static int passCount;
 
-    private static String port;
+    public static String port;
+    public static Types Type;
 
     private static ArrayList<AbstractVehicle> arr;
 
 
 
-    public static boolean isNumber(String s){
-        try {
-            Integer.parseInt(s);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
 
-    }
-
-    public static void dataInput(){
-        Scanner sc=new Scanner(System.in);
-        String choice;
-        int vehicleType;
-        while(true){
-            System.out.print("Choose the vehicle type (1-Car, 2-Plane, 3-Ship: ");
-            choice=sc.next();
-            if(isNumber(choice)){
-                vehicleType=Integer.parseInt(choice);
-                break;
-            }
-        }
-
-
-    }
 
     public static AbstractVehicle getVehicle(Types T){
         if(T.equals(Types.CAR)){
@@ -60,6 +37,8 @@ public class VehicleBuilder {
                     .setCost(cost)
                     .setSpeed(speed)
                     .setIssueYear(issueYear)
+                    .setX(x)
+                    .setY(y)
                     .setCoordinates(x, y);
         }
         if(T.equals(Types.PLANE)){
@@ -67,6 +46,8 @@ public class VehicleBuilder {
                     .setCost(cost)
                     .setSpeed(speed)
                     .setIssueYear(issueYear)
+                    .setX(x)
+                    .setY(y)
                     .setCoordinates(x, y);
         }
         if(T.equals(Types.SHIP)){
@@ -74,11 +55,14 @@ public class VehicleBuilder {
                     .setCost(cost)
                     .setSpeed(speed)
                     .setIssueYear(issueYear)
+                    .setX(x)
+                    .setY(y)
                     .setCoordinates(x, y);
         }
         else{
             return null;
         }
+
     }
 
 
