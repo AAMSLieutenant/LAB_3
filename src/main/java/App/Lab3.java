@@ -162,6 +162,15 @@ public class Lab3 {
             choice=sc.next();
             if(isNumber(choice)){
                 int var=Integer.parseInt(choice);
+                if(var==1){
+                    System.out.println("_______________________________________");
+                    System.out.println("Now the first condtition sort is used:");
+                    System.out.println("Basic unsorted array:");
+                    System.out.println(VehicleBuilder.getVehicles());
+                    System.out.println("_______________________________________");
+                    System.out.println("Result sorted array:");
+                    System.out.println(Helper.sortOne(VehicleBuilder.getVehicles()));
+                }
                 if(var==2){
                     System.out.println("_______________________________________");
                     System.out.println("Now the second condtition sort is used:");

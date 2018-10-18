@@ -1,10 +1,13 @@
 package Vehicles;
 
+
+
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.Comparator;
 
 
-public abstract class AbstractVehicle {
+public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
 
     private int cost;
     private int speed;
@@ -97,4 +100,33 @@ public abstract class AbstractVehicle {
                 ", coordinates=" + Arrays.toString(coordinates) +
                 '}';
     }
+
+
+    @Override
+    public int compareTo (AbstractVehicle o1){
+        return this.getCost()-o1.getCost();
+    }
+
+    public static class Comparators{
+        public static Comparator<AbstractVehicle> COST = new Comparator<AbstractVehicle>() {
+            @Override
+            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
+                return o2.getCost()-o1.getCost();
+            }
+        };
+        public static Comparator<AbstractVehicle> SPEED = new Comparator<AbstractVehicle>() {
+            @Override
+            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
+                return o2.getSpeed() - o1.getSpeed();
+            }
+        };
+        public static Comparator<AbstractVehicle> ISSUEYEAR = new Comparator<AbstractVehicle>() {
+            @Override
+            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
+                return o2.getIssueYear()-o1.getIssueYear();
+
+            }
+        };
+    }
+
 }

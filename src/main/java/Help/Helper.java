@@ -7,9 +7,47 @@ import Vehicles.Plane;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Collections;
 
-public class Helper implements Comparator<AbstractVehicle> {
+public class Helper{
 
+
+    public static ArrayList<AbstractVehicle> sortOne(ArrayList<AbstractVehicle> arr){
+        ArrayList<AbstractVehicle> noPlaneArr=new ArrayList<>();
+        ArrayList<AbstractVehicle> minCostArr=new ArrayList<>();
+        ArrayList<AbstractVehicle> resArr=new ArrayList<>();
+
+        for(AbstractVehicle av:arr){
+            if (!(av instanceof Plane)){
+                noPlaneArr.add(av);
+            }
+        }
+
+
+        Collections.sort(noPlaneArr,AbstractVehicle.Comparators.COST);
+        int minCost=noPlaneArr.get(noPlaneArr.size()-1).getCost();
+        for(AbstractVehicle av: noPlaneArr){
+            if((av.getCost()==minCost)||(av.getCost()>=minCost+20000)){
+                minCostArr.add(av);
+            }
+        }
+
+        Collections.sort(minCostArr,AbstractVehicle.Comparators.SPEED);
+
+        int maxSpeed=minCostArr.get(0).getSpeed();
+        for(AbstractVehicle av: minCostArr){
+            if((av.getSpeed()==maxSpeed)||(av.getCost()>=maxSpeed+100)){
+                resArr.add(av);
+            }
+        }
+
+
+
+
+
+        //System.out.println(res);
+        return resArr;
+    }
 
 
     public static ArrayList<AbstractVehicle> sortThree(ArrayList<AbstractVehicle> arr){
@@ -68,16 +106,15 @@ public class Helper implements Comparator<AbstractVehicle> {
         }
         return arr;
     }
-    public void cmp(AbstractVehicle av1, AbstractVehicle av2){
-        int compare = compare(av1, av2);
-    }
-
-    @Override
-    public int compare(AbstractVehicle av1, AbstractVehicle av2) {
 
 
-        
-        
-        return 0;
-    }
+
+
+
+
 }
+
+
+
+
+
