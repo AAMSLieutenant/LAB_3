@@ -1,12 +1,9 @@
-package Help;
+package App.Model.Help;
 
-import Vehicles.AbstractVehicle;
-import Vehicles.Car;
-import Vehicles.Plane;
+import App.Model.Vehicles.AbstractVehicle;
+import App.Model.Vehicles.Plane;
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
 import java.util.Collections;
 
 public class Helper{
@@ -16,36 +13,43 @@ public class Helper{
         ArrayList<AbstractVehicle> noPlaneArr=new ArrayList<>();
         ArrayList<AbstractVehicle> minCostArr=new ArrayList<>();
         ArrayList<AbstractVehicle> resArr=new ArrayList<>();
-
         for(AbstractVehicle av:arr){
             if (!(av instanceof Plane)){
                 noPlaneArr.add(av);
             }
         }
-
+//        System.out.println("-------------------------------");
+//        System.out.println("Size after not plane "+noPlaneArr.size());
+//        System.out.println(noPlaneArr);
+//        System.out.println("-------------------------------");
 
         Collections.sort(noPlaneArr,AbstractVehicle.Comparators.COST);
+//        System.out.println("-------------------------------");
+//        System.out.println("NoPlaneArr after sort:\n"+noPlaneArr);
+//        System.out.println("-------------------------------");
         int minCost=noPlaneArr.get(noPlaneArr.size()-1).getCost();
         for(AbstractVehicle av: noPlaneArr){
-            if((av.getCost()==minCost)||(av.getCost()>=minCost+20000)){
+            if((av.getCost()==minCost)||(av.getCost()<=minCost+2000)){
                 minCostArr.add(av);
             }
         }
-
+//        System.out.println("-------------------------------");
+//        System.out.println("Size after min cost "+minCostArr.size());
+//        System.out.println("-------------------------------");
         Collections.sort(minCostArr,AbstractVehicle.Comparators.SPEED);
 
         int maxSpeed=minCostArr.get(0).getSpeed();
         for(AbstractVehicle av: minCostArr){
-            if((av.getSpeed()==maxSpeed)||(av.getCost()>=maxSpeed+100)){
+            if((av.getSpeed()==maxSpeed)||(av.getCost()>=maxSpeed+50)){
                 resArr.add(av);
             }
         }
+//        System.out.println("Size after max speed "+resArr.size());
 
 
 
 
-
-        //System.out.println(res);
+//        System.out.println(res);
         return resArr;
     }
 

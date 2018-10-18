@@ -1,6 +1,6 @@
-package Interfaces;
+package App.Model.Interfaces;
 
-import Vehicles.AbstractVehicle;
+import App.Model.Vehicles.AbstractVehicle;
 
 public interface Swimable {
 

@@ -1,7 +1,8 @@
-package Vehicles;
+package App.Model.Vehicles;
 
-import Interfaces.Flyable;
+import App.Model.Interfaces.Flyable;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 public class Plane extends AbstractVehicle implements Flyable {
@@ -38,13 +39,6 @@ public class Plane extends AbstractVehicle implements Flyable {
         return this;
     }
 
-
-
-
-
-
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -64,8 +58,24 @@ public class Plane extends AbstractVehicle implements Flyable {
     public String toString() {
         return "Plane{" +
                 "height=" + height +
-                ", passengersCount=" + passengersCount +
-                '}'
-                +super.toString();
+                ", passengersCount=" + passengersCount+
+                super.toString()+
+                "}\n";
+
+    }
+
+    public static class Comparators{
+        public static Comparator<AbstractVehicle> HEIGHT = new Comparator<AbstractVehicle>() {
+            @Override
+            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
+                return ((Plane)o2).getHeight()-((Plane)o1).getHeight();
+            }
+        };
+        public static Comparator<AbstractVehicle> PASSENGERSCOUNT = new Comparator<AbstractVehicle>() {
+            @Override
+            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
+                return ((Plane)o2).getPassengersCount() - ((Plane)o1).getPassengersCount();
+            }
+        };
     }
 }

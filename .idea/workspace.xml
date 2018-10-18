@@ -3,10 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="cebdf395-eaf6-410d-89a0-6f83aedf4401" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/Lab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Lab3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Help/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Help/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/AbstractVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/AbstractVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App/Lab3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Builder/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Builder/Types.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Builder/VehicleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Builder/VehicleBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Help/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Interfaces/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Moveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Interfaces/Moveable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Interfaces/Swimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/AbstractVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/AbstractVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Amphibous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Amphibous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/BatMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/BatMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Help/Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Vehicles/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Vehicles/Plane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Vehicles/Ship.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,35 +73,35 @@
     <session id="-1693937356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.72" value="2" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="14" />
-          <entry key="java" value="5121" />
-          <entry key="txt" value="45" />
+          <entry key="dummy" value="28" />
+          <entry key="java" value="5508" />
+          <entry key="txt" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5121" />
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="JAVA" value="5508" />
+          <entry key="PLAIN_TEXT" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="36" />
         </counts>
       </usages-collector>
     </session>
@@ -121,10 +137,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Builder/VehicleBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Builder/VehicleBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+            <state relative-caret-position="220">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getVehicle#0;class#VehicleBuilder#0" />
@@ -139,8 +155,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="176">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/BatMobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,10 +174,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/BatMobile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="-43">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,91 +186,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Plane.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="819">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#toString#0;class#Plane#0" />
+                <element signature="e#1606#1807#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1868#2076#0" expanded="true" />
+                <element signature="e#2075#2076#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Ship.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="463">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2036#2282#0" expanded="true" />
+                <element signature="e#2281#2282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/AbstractVehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setX#0;class#AbstractVehicle#0" />
+                <element signature="method#setY#0;class#AbstractVehicle#0" />
+                <element signature="method#setCost#0;class#AbstractVehicle#0" />
+                <element signature="method#setSpeed#0;class#AbstractVehicle#0" />
+                <element signature="method#setIssueYear#0;class#AbstractVehicle#0" />
+                <element signature="method#setCoordinates#0;class#AbstractVehicle#0" />
+                <element signature="method#equals#0;class#AbstractVehicle#0" />
+                <element signature="method#toString#0;class#AbstractVehicle#0" />
+                <element signature="e#2298#2299#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
+                <element signature="class#Comparators#0;class#AbstractVehicle#0" />
+                <element signature="e#2445#2649#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+                <element signature="e#2709#2917#0" expanded="true" />
+                <element signature="e#2916#2917#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Help/Helper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#sortTwo#0;class#Helper#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/AbstractVehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="119" column="53" lean-forward="true" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2394#2395#0" expanded="true" />
-                <element signature="e#2496#2699#0" expanded="true" />
-                <element signature="e#2698#2699#0" expanded="true" />
-                <element signature="e#2760#2968#0" expanded="true" />
-                <element signature="e#2967#2968#0" expanded="true" />
-                <element signature="e#3002#3307#0" expanded="true" />
-                <element signature="e#3306#3307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/App/Lab3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="-1114">
               <caret line="161" column="29" lean-forward="true" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#isNumber#0;class#Lab3#0" />
-                <element signature="method#setPlaneSpec#0;class#Lab3#0" />
-                <element signature="method#setShipSpec#0;class#Lab3#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Car.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="572">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="method#Car#0;class#Car#0" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -277,18 +296,28 @@
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/Moveable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/Swimable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Abstract/AbstractVehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Vehicles/Ship.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interfaces/Flyable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Amphibous.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/BatMobile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Vehicles/Plane.java" />
         <option value="$PROJECT_DIR$/src/main/java/Builder/VehicleBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Vehicles/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/App/Lab3.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/AbstractVehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vehicles/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vehicles/Plane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vehicles/Ship.java" />
         <option value="$PROJECT_DIR$/src/main/java/Help/Helper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Vehicles/Ship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Ship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/AbstractVehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/BatMobile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Plane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App/Controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -356,7 +385,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Builder" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inheritanceTest" type="b2602c69:ProjectViewProjectNode" />
@@ -364,6 +394,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inheritanceTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Help" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,28 +413,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inheritanceTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab_3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Vehicles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539780277659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539879119385" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -417,7 +452,7 @@
       <module name="lab_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="App.*" />
+          <option name="PATTERN" value="App.Controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -448,7 +483,8 @@
       <workItem from="1539598992457" duration="8068000" />
       <workItem from="1539692185616" duration="6057000" />
       <workItem from="1539776830796" duration="3403000" />
-      <workItem from="1539855244419" duration="5797000" />
+      <workItem from="1539855244419" duration="5839000" />
+      <workItem from="1539874467777" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="Added package builder">
       <created>1539599782138</created>
@@ -464,17 +500,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539793661557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Comparator(working)">
+      <created>1539866554866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539866554876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31792000" />
+    <option name="totallyTimeSpent" value="35453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28464016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -482,8 +525,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3278496" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3278496" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,7 +590,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added package builder" />
     <MESSAGE value="Added Comparator(empty)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Comparator(empty)" />
+    <MESSAGE value="Added Comparator(working)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comparator(working)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -564,31 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/Types.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/Moveable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/Swimable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Amphibous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="21626">
+          <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
         </state>
       </provider>
     </entry>
@@ -599,102 +622,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/Flyable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/BatMobile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Amphibous.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Plane.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Interfaces/Flyable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Ship.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Interfaces/Moveable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Interfaces/Swimable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Lab3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Builder/Types.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="161" column="29" lean-forward="true" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isNumber#0;class#Lab3#0" />
-            <element signature="method#setPlaneSpec#0;class#Lab3#0" />
-            <element signature="method#setShipSpec#0;class#Lab3#0" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/AbstractVehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Builder/VehicleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="119" column="53" lean-forward="true" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2496#2699#0" expanded="true" />
-            <element signature="e#2698#2699#0" expanded="true" />
-            <element signature="e#2760#2968#0" expanded="true" />
-            <element signature="e#2967#2968#0" expanded="true" />
-            <element signature="e#3002#3307#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Builder/VehicleBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getVehicle#0;class#VehicleBuilder#0" />
@@ -705,13 +671,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Help/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="463">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#sortTwo#0;class#Helper#0" />
+            <element signature="e#2036#2282#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/AbstractVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setX#0;class#AbstractVehicle#0" />
+            <element signature="method#setY#0;class#AbstractVehicle#0" />
+            <element signature="method#setCost#0;class#AbstractVehicle#0" />
+            <element signature="method#setSpeed#0;class#AbstractVehicle#0" />
+            <element signature="method#setIssueYear#0;class#AbstractVehicle#0" />
+            <element signature="method#setCoordinates#0;class#AbstractVehicle#0" />
+            <element signature="method#equals#0;class#AbstractVehicle#0" />
+            <element signature="method#toString#0;class#AbstractVehicle#0" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="class#Comparators#0;class#AbstractVehicle#0" />
+            <element signature="e#2445#2649#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2709#2917#0" expanded="true" />
+            <element signature="e#2916#2917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/BatMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="method#Car#0;class#Car#0" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Vehicles/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#toString#0;class#Plane#0" />
+            <element signature="e#1606#1807#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1868#2076#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1114">
+          <caret line="161" column="29" lean-forward="true" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

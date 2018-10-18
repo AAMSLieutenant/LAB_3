@@ -1,13 +1,12 @@
-package Builder;
+package App.Model.Builder;
 
-import Vehicles.AbstractVehicle;
-import Vehicles.Car;
-import Vehicles.Plane;
-import Vehicles.Ship;
+import App.Model.Vehicles.AbstractVehicle;
+import App.Model.Vehicles.Car;
+import App.Model.Vehicles.Plane;
+import App.Model.Vehicles.Ship;
 
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class VehicleBuilder {
 

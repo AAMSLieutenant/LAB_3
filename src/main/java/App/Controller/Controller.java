@@ -1,12 +1,12 @@
-package App;
+package App.Controller;
 
-import Builder.Types;
-import Builder.VehicleBuilder;
-import Help.Helper;
+import App.Model.Builder.Types;
+import App.Model.Builder.VehicleBuilder;
+import App.Model.Help.Helper;
 
 import java.util.Scanner;
 
-public class Lab3 {
+public class Controller {
 
     public static boolean isNumber(String s){
         try {
@@ -148,7 +148,7 @@ public class Lab3 {
         }
     }
 
-    public static void lab3(){
+    public static void view(){
         String choice;
         Scanner sc=new Scanner(System.in);
         while(true){
@@ -213,17 +213,16 @@ public class Lab3 {
                     System.out.println(Helper.interfaceSort(VehicleBuilder.getSwimables()));
                 }
                 if(var==5){
-                    Lab3.dataInput();
+                    Controller.dataInput();
                     System.out.println(VehicleBuilder.getVehicle(VehicleBuilder.Type));
                 }
-                break;
+
             }
             else{
                 System.out.println("wrong format");
             }
         }
-        //dataInput();
-        //VehicleBuilder.getVehicle(VehicleBuilder.Type);
+
     }
 
 

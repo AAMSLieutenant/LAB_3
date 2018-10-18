@@ -1,13 +1,14 @@
-package Vehicles;
+package App.Model.Vehicles;
 
-import Interfaces.Moveable;
-import Interfaces.Swimable;
+import App.Model.Interfaces.Moveable;
+import App.Model.Interfaces.Swimable;
+import App.Model.Interfaces.Flyable;
 
-public class Amphibous extends Vehicle implements Moveable, Swimable {
+public class BatMobile extends AbstractVehicle implements Moveable, Flyable, Swimable {
+
+    private int height;
     private int passengersCount;
     private String portOfResidence;
-
-
 
     @Override
     public int getPassengersCount() {
@@ -21,6 +22,17 @@ public class Amphibous extends Vehicle implements Moveable, Swimable {
     }
 
     @Override
+    public int getHeight() {
+        return height;
+    }
+
+    @Override
+    public AbstractVehicle setHeight(int height) {
+        this.height = height;
+        return this;
+    }
+
+    @Override
     public String getPortOfResidence() {
         return portOfResidence;
     }
@@ -30,6 +42,5 @@ public class Amphibous extends Vehicle implements Moveable, Swimable {
         this.portOfResidence = portOfResidence;
         return this;
     }
-
 
 }

@@ -1,4 +1,4 @@
-package Builder;
+package App.Model.Builder;
 
 public enum Types {
     CAR,

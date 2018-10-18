@@ -1,7 +1,8 @@
-package Vehicles;
+package App.Model.Vehicles;
 
-import Interfaces.Swimable;
+import App.Model.Interfaces.Swimable;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 public class Ship extends AbstractVehicle implements Swimable {
@@ -58,7 +59,18 @@ public class Ship extends AbstractVehicle implements Swimable {
         return "Ship{" +
                 "passengersCount=" + passengersCount +
                 ", portOfResidence='" + portOfResidence + '\'' +
-                '}'
-                +super.toString();
+                super.toString()+
+                "}\n";
+
+    }
+
+    public static class Comparators{
+
+        public static Comparator<AbstractVehicle> PASSENGERSCOUNT = new Comparator<AbstractVehicle>() {
+            @Override
+            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
+                return ((Plane)o2).getPassengersCount() - ((Plane)o1).getPassengersCount();
+            }
+        };
     }
 }

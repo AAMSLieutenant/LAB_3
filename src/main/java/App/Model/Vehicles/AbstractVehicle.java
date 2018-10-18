@@ -1,4 +1,4 @@
-package Vehicles;
+package App.Model.Vehicles;
 
 
 
@@ -19,8 +19,6 @@ public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
     public AbstractVehicle(){
         coordinates=new int[2];
     }
-
-
 
     public int getX() {
         return x;
@@ -48,7 +46,6 @@ public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
     }
 
     public int getSpeed(){ return this.speed;}
-
     public AbstractVehicle setSpeed(int speed){
         this.speed=speed;
         return this;
@@ -88,7 +85,6 @@ public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
         return Objects.hash(cost, speed, issueYear, x, y);
     }
 
-
     @Override
     public String toString() {
         return "AbstractVehicle{" +
@@ -98,7 +94,7 @@ public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
                 ", x=" + x +
                 ", y=" + y +
                 ", coordinates=" + Arrays.toString(coordinates) +
-                '}';
+                "}";
     }
 
 
@@ -120,13 +116,7 @@ public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
                 return o2.getSpeed() - o1.getSpeed();
             }
         };
-        public static Comparator<AbstractVehicle> ISSUEYEAR = new Comparator<AbstractVehicle>() {
-            @Override
-            public int compare(AbstractVehicle o1, AbstractVehicle o2) {
-                return o2.getIssueYear()-o1.getIssueYear();
 
-            }
-        };
     }
 
 }
