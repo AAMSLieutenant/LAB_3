@@ -5,10 +5,14 @@ package App.Model.Vehicles;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Comparator;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
+
 
 
 public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
 
+//    private static Logger loggger=LoggerFactory.getLogger(AbstractVehicle.class);
     private int cost;
     private int speed;
     private int issueYear;

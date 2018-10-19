@@ -6,13 +6,26 @@ import App.Model.Help.Helper;
 
 import java.util.Scanner;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.xml.DOMConfigurator;
+
 public class Controller {
+
+    public static final Logger log=Logger.getLogger(Controller.class);
+    {
+        PropertyConfigurator.configure("log4j.properties");
+    }
 
     public static boolean isNumber(String s){
         try {
             Integer.parseInt(s);
+            log.info("User made an input in Controller:dataInput()");
             return true;
         } catch (NumberFormatException e) {
+            log.error("User made wrong input in Controller:dataInput()");
             return false;
         }
 
