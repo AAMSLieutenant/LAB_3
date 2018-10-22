@@ -41,13 +41,14 @@ public class Controller {
             if(isNumber(choice)){
                 vehicleType=Integer.parseInt(choice);
                 switch(vehicleType){
-                    case 1: VehicleBuilder.Type= Types.CAR;break;
-                    case 2: VehicleBuilder.Type= Types.PLANE;break;
-                    case 3: VehicleBuilder.Type= Types.SHIP;break;
+                    case 1: VehicleBuilder.Type= Types.CAR;log.info("User have chosen Type.CAR");break;
+                    case 2: VehicleBuilder.Type= Types.PLANE;log.info("User have chosen Type.CAR");break;
+                    case 3: VehicleBuilder.Type= Types.SHIP;log.info("User have chosen Type.CAR");break;
                 }
                 break;
             }
             else{
+                log.error("User made mistake in choosing the type");
                 System.out.println("wrong format");
             }
         }
@@ -56,10 +57,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.cost=Integer.parseInt(choice);
+                log.info("User inserted the cost");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the cost");
             }
         }
         while(true){
@@ -67,10 +70,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.speed=Integer.parseInt(choice);
+                log.info("User inserted the speed");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the speed");
             }
         }
 
@@ -79,10 +84,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.issueYear=Integer.parseInt(choice);
+                log.info("User inserted the issueYear");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the year");
             }
         }
         while(true){
@@ -90,10 +97,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.x=Integer.parseInt(choice);
+                log.info("User inserted the X-coordinate");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the X-coordinate");
             }
         }
         while(true){
@@ -101,10 +110,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.y=Integer.parseInt(choice);
+                log.info("User inserted the X-coordinate");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the Y-coordinate");
             }
         }
         switch(vehicleType){
@@ -122,10 +133,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.height=Integer.parseInt(choice);
+                log.info("User inserted the height");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the height");
             }
         }
         while(true){
@@ -133,10 +146,12 @@ public class Controller {
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.passCount=Integer.parseInt(choice);
+                log.info("User inserted the passengers count");
                 break;
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the passengers count");
             }
         }
     }
@@ -149,7 +164,8 @@ public class Controller {
         choice=sc.next();
         VehicleBuilder.port=choice;
         while(true){
-            System.out.print("Input the passengers count of the vehicle: ");
+            System.out.print("Input the port of the vehicle: ");
+            log.info("User inserted the port");
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.passCount=Integer.parseInt(choice);
@@ -157,6 +173,7 @@ public class Controller {
             }
             else{
                 System.out.println("wrong format");
+                log.error("User made mistake in inserting the port");
             }
         }
     }
@@ -176,6 +193,7 @@ public class Controller {
             if(isNumber(choice)){
                 int var=Integer.parseInt(choice);
                 if(var==1){
+                    log.info("User have chosen the first sort");
                     System.out.println("_______________________________________");
                     System.out.println("Now the first condtition sort is used:");
                     System.out.println("Basic unsorted array:");
@@ -185,6 +203,7 @@ public class Controller {
                     System.out.println(Helper.sortOne(VehicleBuilder.getVehicles()));
                 }
                 if(var==2){
+                    log.info("User have chosen the second sort");
                     System.out.println("_______________________________________");
                     System.out.println("Now the second condtition sort is used:");
                     System.out.println("Basic unsorted array:");
@@ -194,6 +213,7 @@ public class Controller {
                     System.out.println(Helper.sortTwo(VehicleBuilder.getVehicles()));
                 }
                 if(var==3){
+                    log.info("User have chosen the third sort");
                     System.out.println("_______________________________________");
                     System.out.println("Now the third condtition sort is used:");
                     System.out.println("Basic unsorted array:");
@@ -203,6 +223,7 @@ public class Controller {
                     System.out.println(Helper.sortThree(VehicleBuilder.getVehicles()));
                 }
                 if(var==4){
+                    log.info("User have chosen the interface-based sort");
                     System.out.println("_______________________________________");
                     System.out.println("Now the interface-based sort is used:");
                     System.out.println("Basic unsorted array (MOVABLES):");
@@ -226,6 +247,7 @@ public class Controller {
                     System.out.println(Helper.interfaceSort(VehicleBuilder.getSwimables()));
                 }
                 if(var==5){
+                    log.info("User have chosen the manual data insert");
                     Controller.dataInput();
                     System.out.println(VehicleBuilder.getVehicle(VehicleBuilder.Type));
                 }
@@ -233,6 +255,7 @@ public class Controller {
             }
             else{
                 System.out.println("wrong format");
+                log.error("wrong insert in the main menu");
             }
         }
 

@@ -8,3 +8,9 @@
 2018-10-19 18:23:40 INFO  Controller:25 - User made an input in Controller:dataInput()
 2018-10-19 18:23:54 INFO  Controller:25 - User made an input in Controller:dataInput()
 2018-10-19 18:23:58 ERROR Controller:28 - User made wrong input in Controller:dataInput()
+2018-10-22 11:54:19 INFO  Application:23 - Project is started
+2018-10-22 11:54:51 INFO  Controller:25 - User made an input in Controller:dataInput()
+2018-10-22 11:55:10 ERROR Controller:28 - User made wrong input in Controller:dataInput()
+2018-10-22 11:55:10 ERROR Controller:258 - wrong insert in the main menu
+2018-10-22 11:55:22 INFO  Controller:25 - User made an input in Controller:dataInput()
+2018-10-22 11:55:22 INFO  Controller:196 - User have chosen the first sort
