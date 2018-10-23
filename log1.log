@@ -42,3 +42,30 @@
 2018-10-22 17:15:14 ERROR Controller:28 - User made wrong input in Controller:dataInput()
 2018-10-22 17:15:14 ERROR Controller:176 - User made mistake in inserting the port
 2018-10-22 17:15:14 INFO  Controller:168 - User inserted the port
+2018-10-23 15:36:04 INFO  Application:24 - Project is started
+2018-10-23 15:36:17 INFO  Controller:57 - User made an input in Controller:dataInput()
+2018-10-23 15:37:04 INFO  Application:24 - Project is started
+2018-10-23 15:37:13 ERROR Controller:60 - User made wrong input in Controller:dataInput()
+2018-10-23 15:37:13 ERROR Controller:45 - User made mistake in choosing the language
+2018-10-23 15:38:15 INFO  Application:24 - Project is started
+2018-10-23 15:38:20 INFO  Controller:58 - User made an input in Controller:dataInput()
+2018-10-23 15:43:46 INFO  Application:24 - Project is started
+2018-10-23 15:43:50 INFO  Controller:58 - User made an input in Controller:dataInput()
+2018-10-23 15:45:47 INFO  Application:24 - Project is started
+2018-10-23 15:45:50 INFO  Controller:64 - User made an input in Controller:dataInput()
+2018-10-23 15:46:02 INFO  Application:24 - Project is started
+2018-10-23 15:46:05 INFO  Controller:64 - User made an input in Controller:dataInput()
+2018-10-23 15:47:05 INFO  Application:24 - Project is started
+2018-10-23 15:47:07 INFO  Controller:64 - User made an input in Controller:dataInput()
+2018-10-23 18:39:51 INFO  Application:24 - Project is started
+2018-10-23 18:39:55 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-23 18:44:06 INFO  Application:24 - Project is started
+2018-10-23 18:44:08 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-23 18:44:14 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-23 18:44:14 INFO  Controller:302 - User have chosen the first sort
+2018-10-23 18:48:29 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-23 18:48:29 INFO  Controller:312 - User have chosen the second sort
+2018-10-23 18:50:17 INFO  Application:24 - Project is started
+2018-10-23 18:50:20 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-23 18:50:22 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-23 18:50:22 INFO  Controller:302 - User have chosen the first sort

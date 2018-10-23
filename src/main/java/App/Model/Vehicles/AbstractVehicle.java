@@ -65,6 +65,8 @@ public abstract class AbstractVehicle implements Comparable<AbstractVehicle> {
     public AbstractVehicle setCoordinates(int x, int y){
         this.coordinates[0]=x;
         this.coordinates[1]=y;
+        this.x=x;
+        this.y=y;
         return this;
     }
 
