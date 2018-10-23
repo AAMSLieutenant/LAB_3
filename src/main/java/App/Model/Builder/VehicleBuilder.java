@@ -26,10 +26,6 @@ public class VehicleBuilder {
 
     private static ArrayList<AbstractVehicle> arr;
 
-
-
-
-
     public static AbstractVehicle getVehicle(Types T){
         if(T.equals(Types.CAR)){
             return new Car()
@@ -63,8 +59,6 @@ public class VehicleBuilder {
         }
 
     }
-
-
 
     public static ArrayList<AbstractVehicle> getVehicles(){
         arr=new ArrayList<AbstractVehicle>();

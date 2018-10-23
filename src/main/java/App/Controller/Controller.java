@@ -14,7 +14,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 
 public class Controller {
 
-    public static final Logger log=Logger.getLogger(Controller.class);
+    private static final Logger log=Logger.getLogger(Controller.class);
     {
         PropertyConfigurator.configure("log4j.properties");
     }
@@ -163,19 +163,6 @@ public class Controller {
         System.out.print("Input the port of the vehicle: ");
         choice=sc.next();
         VehicleBuilder.port=choice;
-        while(true){
-            System.out.print("Input the port of the vehicle: ");
-            log.info("User inserted the port");
-            choice=sc.next();
-            if(isNumber(choice)){
-                VehicleBuilder.passCount=Integer.parseInt(choice);
-                break;
-            }
-            else{
-                System.out.println("wrong format");
-                log.error("User made mistake in inserting the port");
-            }
-        }
     }
 
     public static void view(){

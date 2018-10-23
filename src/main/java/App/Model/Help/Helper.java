@@ -8,7 +8,6 @@ import java.util.Collections;
 
 public class Helper{
 
-
     public static ArrayList<AbstractVehicle> sortOne(ArrayList<AbstractVehicle> arr){
         ArrayList<AbstractVehicle> noPlaneArr=new ArrayList<>();
         ArrayList<AbstractVehicle> minCostArr=new ArrayList<>();
@@ -87,12 +86,6 @@ public class Helper{
         return res;
     }
 
-
-
-
-
-
-
     public static ArrayList<AbstractVehicle> interfaceSort(ArrayList<AbstractVehicle> fArr){
         ArrayList<AbstractVehicle> arr=new ArrayList<>();
         int maxSpeed=0;
@@ -110,12 +103,6 @@ public class Helper{
         }
         return arr;
     }
-
-
-
-
-
-
 }
 
 
