@@ -69,3 +69,59 @@
 2018-10-23 18:50:20 INFO  Controller:65 - User made an input in Controller:dataInput()
 2018-10-23 18:50:22 INFO  Controller:65 - User made an input in Controller:dataInput()
 2018-10-23 18:50:22 INFO  Controller:302 - User have chosen the first sort
+2018-10-24 15:29:52 INFO  Application:24 - Project is started
+2018-10-24 15:29:58 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 15:32:37 INFO  Application:24 - Project is started
+2018-10-24 15:32:43 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 15:33:52 INFO  Application:24 - Project is started
+2018-10-24 15:46:42 INFO  Application:24 - Project is started
+2018-10-24 16:14:34 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:14:38 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:14:38 INFO  Controller:316 - User have chosen the second sort
+2018-10-24 16:21:11 INFO  Application:24 - Project is started
+2018-10-24 16:21:15 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:21:18 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:21:18 INFO  Controller:332 - User have chosen the third sort
+2018-10-24 16:23:09 INFO  Application:24 - Project is started
+2018-10-24 16:23:13 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:23:16 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:23:16 INFO  Controller:332 - User have chosen the third sort
+2018-10-24 16:24:26 INFO  Application:24 - Project is started
+2018-10-24 16:24:29 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:24:34 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:24:34 INFO  Controller:348 - User have chosen the interface-based sort
+2018-10-24 16:31:44 INFO  Application:24 - Project is started
+2018-10-24 16:31:48 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:31:50 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:31:50 INFO  Controller:348 - User have chosen the interface-based sort
+2018-10-24 16:33:34 INFO  Application:24 - Project is started
+2018-10-24 16:33:43 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:33:44 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:33:44 INFO  Controller:348 - User have chosen the interface-based sort
+2018-10-24 16:43:25 INFO  Application:24 - Project is started
+2018-10-24 16:43:30 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:43:33 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:43:33 INFO  Controller:397 - User have chosen the manual data insert
+2018-10-24 16:44:47 INFO  Application:24 - Project is started
+2018-10-24 16:44:51 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:44:53 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:44:53 INFO  Controller:397 - User have chosen the manual data insert
+2018-10-24 16:46:26 INFO  Application:24 - Project is started
+2018-10-24 16:46:30 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:46:32 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:46:32 INFO  Controller:399 - User have chosen the manual data insert
+2018-10-24 16:46:36 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:46:36 INFO  Controller:97 - User have chosen Type.SHIP
+2018-10-24 16:46:43 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:46:43 INFO  Controller:116 - User inserted the cost
+2018-10-24 16:46:47 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:46:47 INFO  Controller:133 - User inserted the speed
+2018-10-24 16:47:35 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:47:35 INFO  Controller:152 - User inserted the issueYear
+2018-10-24 16:47:37 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:47:37 INFO  Controller:169 - User inserted the X-coordinate
+2018-10-24 16:47:37 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:47:37 INFO  Controller:185 - User inserted the X-coordinate
+2018-10-24 16:47:41 INFO  Controller:259 - User inserted the height
+2018-10-24 16:47:43 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 16:47:43 INFO  Controller:268 - User inserted the passengers count

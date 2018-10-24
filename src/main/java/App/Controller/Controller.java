@@ -77,7 +77,9 @@ public class Controller {
             String choice;
             int vehicleType;
             while (true) {
-                System.out.print(rb.getString("strTypeChoice"));
+                String st=rb.getString("strTypeChoice");
+                String res=new String(st.getBytes("cp1252"), "cp1251");
+                System.out.println(res);
                 choice = sc.next();
                 if (isNumber(choice)) {
                     vehicleType = Integer.parseInt(choice);
@@ -98,9 +100,9 @@ public class Controller {
                     break;
                 } else {
                     log.error("User made mistake in choosing the type");
-                    String st=rb.getString("strWrongFormat");
-                    String res=new String(st.getBytes("cp1252"), "cp1251");
-                    System.out.println(res);
+                    st=rb.getString("strWrongFormat");
+                    res=new String(st.getBytes("cp1252"), "cp1251");
+                    System.out.print(res);
                 }
             }
             while (true) {
@@ -118,24 +120,23 @@ public class Controller {
                     log.error("User made mistake in inserting the cost");
                     st=rb.getString("strWrongFormat");
                     res=new String(st.getBytes("cp1252"), "cp1251");
-                    System.out.println(res);
+                    System.out.print(res);
                 }
             }
             while (true) {
                 String st=rb.getString("strSpeedInput");
                 String res=new String(st.getBytes("cp1252"), "cp1251");
-                System.out.println(res);
+                System.out.print(res);
                 choice = sc.next();
                 if (isNumber(choice)) {
                     VehicleBuilder.speed = Integer.parseInt(choice);
                     log.info("User inserted the speed");
                     break;
                 } else {
-                    System.out.println("wrong format");
                     log.error("User made mistake in inserting the speed");
                     st=rb.getString("strWrongFormat");
                     res=new String(st.getBytes("cp1252"), "cp1251");
-                    System.out.println(res);
+                    System.out.print(res);
                 }
             }
 
@@ -143,7 +144,7 @@ public class Controller {
 
                 String st=rb.getString("strIssueYearInput");
                 String res=new String(st.getBytes("cp1252"), "cp1251");
-                System.out.println(res);
+                System.out.print(res);
                 choice = sc.next();
                 if (isNumber(choice)) {
                     VehicleBuilder.issueYear = Integer.parseInt(choice);
@@ -154,13 +155,13 @@ public class Controller {
                     log.error("User made mistake in inserting the year");
                     st=rb.getString("strWrongFormat");
                     res=new String(st.getBytes("cp1252"), "cp1251");
-                    System.out.println(res);
+                    System.out.print(res);
                 }
             }
             while (true) {
                 String st=rb.getString("strXcordInput");
                 String res=new String(st.getBytes("cp1252"), "cp1251");
-                System.out.println(res);
+                System.out.print(res);
                 choice = sc.next();
                 if (isNumber(choice)) {
                     VehicleBuilder.x = Integer.parseInt(choice);
@@ -170,13 +171,13 @@ public class Controller {
                     log.error("User made mistake in inserting the X-coordinate");
                     st=rb.getString("strWrongFormat");
                     res=new String(st.getBytes("cp1252"), "cp1251");
-                    System.out.println(res);
+                    System.out.print(res);
                 }
             }
             while (true) {
                 String st=rb.getString("strXcordInput");
                 String res=new String(st.getBytes("cp1252"), "cp1251");
-                System.out.println(res);
+                System.out.print(res);
                 choice = sc.next();
                 if (isNumber(choice)) {
                     VehicleBuilder.y = Integer.parseInt(choice);
@@ -187,7 +188,7 @@ public class Controller {
                     log.error("User made mistake in inserting the Y-coordinate");
                     st=rb.getString("strWrongFormat");
                     res=new String(st.getBytes("cp1252"), "cp1251");
-                    System.out.println(res);
+                    System.out.print(res);
                 }
             }
             switch (vehicleType) {
@@ -211,7 +212,7 @@ public class Controller {
         while(true){
             String st=rb.getString("strHeightInput");
             String res=new String(st.getBytes("cp1252"), "cp1251");
-            System.out.println(res);
+            System.out.print(res);
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.height=Integer.parseInt(choice);
@@ -223,13 +224,13 @@ public class Controller {
                 log.error("User made mistake in inserting the height");
                 st=rb.getString("strWrongFormat");
                 res=new String(st.getBytes("cp1252"), "cp1251");
-                System.out.println(res);
+                System.out.print(res);
             }
         }
         while(true){
             String st=rb.getString("strPassInput");
             String res=new String(st.getBytes("cp1252"), "cp1251");
-            System.out.println(res);
+            System.out.print(res);
             choice=sc.next();
             if(isNumber(choice)){
                 VehicleBuilder.passCount=Integer.parseInt(choice);
@@ -237,11 +238,10 @@ public class Controller {
                 break;
             }
             else{
-
                 log.error("User made mistake in inserting the passengers count");
                 st=rb.getString("strWrongFormat");
                 res=new String(st.getBytes("cp1252"), "cp1251");
-                System.out.println(res);
+                System.out.print(res);
             }
         }
     }
@@ -268,7 +268,6 @@ public class Controller {
                 break;
             }
             else{
-
                 log.error("User made mistake in inserting the passengers count");
                 st=rb.getString("strWrongFormat");
                 res=new String(st.getBytes("cp1252"), "cp1251");
@@ -278,7 +277,6 @@ public class Controller {
     }
 
     public static void view(){
-
         getLocale();
         try {
             String choice;
@@ -292,6 +290,7 @@ public class Controller {
 //            System.out.println("5 - create object by hand:");
 //            System.out.print("/>");
                 String st = rb.getString("strMenu");
+//                System.out.println(rb.getKeys());
                 String res = new String(st.getBytes("cp1252"), "cp1251");
                 System.out.print(res);
 
@@ -300,60 +299,104 @@ public class Controller {
                     int var = Integer.parseInt(choice);
                     if (var == 1) {
                         log.info("User have chosen the first sort");
-                        System.out.println("_______________________________________");
-                        System.out.println("Now the first condition sort is used:");
-                        System.out.println("Basic unsorted array:");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Now the first condition sort is used:");
+//                        System.out.println("Basic unsorted array:");
+                        st=rb.getString("strVarOneFirst");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(VehicleBuilder.getVehicles());
-                        System.out.println("_______________________________________");
-                        System.out.println("Result sorted array:");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Result sorted array:");
+                        st=rb.getString("strVarOneLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(Helper.sortOne(VehicleBuilder.getVehicles()));
                     }
                     if (var == 2) {
                         log.info("User have chosen the second sort");
-                        System.out.println("_______________________________________");
-                        System.out.println("Now the second condtition sort is used:");
-                        System.out.println("Basic unsorted array:");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Now the second condtition sort is used:");
+//                        System.out.println("Basic unsorted array:");
+                        st=rb.getString("strVarTwoFirst");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(VehicleBuilder.getVehicles());
-                        System.out.println("_______________________________________");
-                        System.out.println("Result sorted array:");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Result sorted array:");
+                        st=rb.getString("strVarTwoLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(Helper.sortTwo(VehicleBuilder.getVehicles()));
                     }
                     if (var == 3) {
                         log.info("User have chosen the third sort");
-                        System.out.println("_______________________________________");
-                        System.out.println("Now the third condtition sort is used:");
-                        System.out.println("Basic unsorted array:");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Now the third condtition sort is used:");
+//                        System.out.println("Basic unsorted array:");
+                        st=rb.getString("strVarThreeLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(VehicleBuilder.getVehicles());
-                        System.out.println("_______________________________________");
-                        System.out.println("Result sorted array:");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Result sorted array:");
+                        st=rb.getString("strVarThreeLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(Helper.sortThree(VehicleBuilder.getVehicles()));
                     }
                     if (var == 4) {
                         log.info("User have chosen the interface-based sort");
-                        System.out.println("_______________________________________");
-                        System.out.println("Now the interface-based sort is used:");
-                        System.out.println("Basic unsorted array (MOVABLES):");
+                        st=rb.getString("strVarFourFirst");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
+
+                        st=rb.getString("strVarMovablesFirst");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Now the interface-based sort is used:");
+//                        System.out.println("Basic unsorted array (MOVABLES):");
                         System.out.println(VehicleBuilder.getMovables());
-                        System.out.println("_______________________________________");
-                        System.out.println("Result sorted array (MOVABLES):");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Result sorted array (MOVABLES):");
+                        st=rb.getString("strVarMovablesLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(Helper.interfaceSort(VehicleBuilder.getMovables()));
 
-                        System.out.println("_______________________________________");
-                        System.out.println("Basic unsorted array (FLYABLES):");
+
+
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Basic unsorted array (FLYABLES):");
+                        st=rb.getString("strVarFlyablesFirst");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(VehicleBuilder.getFlyables());
-                        System.out.println("_______________________________________");
-                        System.out.println("Result sorted array (FLYABLES):");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Result sorted array (FLYABLES):");
+                        st=rb.getString("strVarFlyablesLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(Helper.interfaceSort(VehicleBuilder.getFlyables()));
 
-                        System.out.println("_______________________________________");
-                        System.out.println("Basic unsorted array (SWIMABLES):");
+
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Basic unsorted array (SWIMABLES):");
+                        st=rb.getString("strVarSwimablesFirst");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(VehicleBuilder.getSwimables());
-                        System.out.println("_______________________________________");
-                        System.out.println("Result sorted array (SWIMABLES):");
+//                        System.out.println("_______________________________________");
+//                        System.out.println("Result sorted array (SWIMABLES):");
+                        st=rb.getString("strVarSwimablesLast");
+                        res=new String(st.getBytes("cp1252"), "cp1251");
+                        System.out.println(res);
                         System.out.println(Helper.interfaceSort(VehicleBuilder.getSwimables()));
                     }
                     if (var == 5) {
                         log.info("User have chosen the manual data insert");
+                        System.out.println("Started data input");
                         Controller.dataInput();
                         System.out.println(VehicleBuilder.getVehicle(VehicleBuilder.Type));
                     }
@@ -371,3 +414,4 @@ public class Controller {
     }
 
 }
+//
