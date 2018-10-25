@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cebdf395-eaf6-410d-89a0-6f83aedf4401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/property/RU_RU.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/property/text_RU-RU.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/App/Model/Help/HelperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log1.log" beforeDir="false" afterPath="$PROJECT_DIR$/log1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Tests/App/Model/Help/HelperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text_ru_RU.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text_ru_RU.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/text_uk_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/text_uk_UA.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +24,7 @@
     <session id="979057159">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.opened" value="2" />
@@ -56,11 +48,13 @@
         <counts>
           <entry key="java" value="1774" />
           <entry key="properties" value="435" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1774" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="435" />
         </counts>
       </usages-collector>
@@ -190,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="308" column="88" lean-forward="true" selection-start-line="308" selection-start-column="88" selection-end-line="308" selection-end-column="88" />
+            <state relative-caret-position="-238">
+              <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setShipSpec#0;class#Controller#0" />
@@ -222,8 +216,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/text_uk_UA.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="68">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -231,23 +225,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+            <state relative-caret-position="85">
+              <caret line="57" column="72" lean-forward="true" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sortOne#0;class#Helper#0" />
-                <element signature="method#sortThree#0;class#Helper#0" />
                 <element signature="method#sortTwo#0;class#Helper#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test/App/Model/Help/HelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="324">
+              <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -256,8 +249,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+            <state relative-caret-position="-561">
+              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -266,7 +259,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/text_ru_RU.properties">
           <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="-663">
               <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
@@ -466,6 +459,21 @@
               <item name="inheritanceTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="InheritanceTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inheritanceTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'text'" type="a6c14932:ResourceBundleNode" />
+            </path>
+            <path>
+              <item name="inheritanceTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -484,7 +492,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540388971852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540390541454" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -6749,7 +6757,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.HelperTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App.Application" />
       <module name="InheritanceTest" />
@@ -6835,10 +6843,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.HelperTest" />
-        <item itemvalue="JUnit.HelperTest.sortThree" />
         <item itemvalue="JUnit.HelperTest.sortOne" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.HelperTest.sortThree" />
         <item itemvalue="JUnit.HelperTest.sortTwo" />
       </list>
     </recent_temporary>
@@ -6900,16 +6908,17 @@
       <option name="project" value="LOCAL" />
       <updated>1539967433332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished lab_3">
+      <created>1540389019166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540389019166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelperTest - 2018.10.24 at 16h 31m 05s.xml">
-      <configuration name="HelperTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelperTest - 2018.10.24 at 16h 31m 30s.xml">
-      <configuration name="HelperTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelperTest - 2018.10.24 at 16h 32m 43s.xml">
       <configuration name="HelperTest" configurationId="JUnit" />
     </history-entry>
@@ -6934,9 +6943,15 @@
     <history-entry file="HelperTest - 2018.10.24 at 16h 42m 33s.xml">
       <configuration name="HelperTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelperTest_sortOne - 2018.10.24 at 17h 13m 38s.xml">
+      <configuration name="HelperTest.sortOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelperTest - 2018.10.24 at 17h 13m 48s.xml">
+      <configuration name="HelperTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70610000" />
+    <option name="totallyTimeSpent" value="71826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -6949,9 +6964,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -6960,7 +6974,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39836067" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39836067" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -7027,7 +7041,8 @@
     <MESSAGE value="Added Comparator(working)" />
     <MESSAGE value="Working lab 3" />
     <MESSAGE value="started logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="started logging" />
+    <MESSAGE value="Finished lab_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished lab_3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Objects.java">
@@ -7164,22 +7179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/text_ru_RU.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Tests/App/Model/Help/HelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -7237,26 +7236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sortOne#0;class#Helper#0" />
-            <element signature="method#sortThree#0;class#Helper#0" />
-            <element signature="method#sortTwo#0;class#Helper#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/App/Model/Help/HelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -7267,22 +7246,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text_ru_RU.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/text_uk_UA.properties">
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="68">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/Model/Help/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="57" column="72" lean-forward="true" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sortOne#0;class#Helper#0" />
+            <element signature="method#sortTwo#0;class#Helper#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="308" column="88" lean-forward="true" selection-start-line="308" selection-start-column="88" selection-end-line="308" selection-end-column="88" />
+        <state relative-caret-position="-238">
+          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setShipSpec#0;class#Controller#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/App/Model/Help/HelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="92" column="30" lean-forward="true" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -125,3 +125,7 @@
 2018-10-24 16:47:41 INFO  Controller:259 - User inserted the height
 2018-10-24 16:47:43 INFO  Controller:65 - User made an input in Controller:dataInput()
 2018-10-24 16:47:43 INFO  Controller:268 - User inserted the passengers count
+2018-10-24 17:10:37 INFO  Application:24 - Project is started
+2018-10-24 17:10:41 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 17:10:45 INFO  Controller:65 - User made an input in Controller:dataInput()
+2018-10-24 17:10:45 INFO  Controller:301 - User have chosen the first sort
